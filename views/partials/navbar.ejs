@@ -1,0 +1,45 @@
+<nav class="navbar navbar-expand-lg navbar-light white" style="position: fixed; width: 100%;z-index: 20;">
+<a class="navbar-brand" href="/checkproducts">
+<img src="images/img1.jpg" style="width: 30px;"> &nbsp
+</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+    aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon" style="color: #4287f5;"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="basicExampleNav">
+    <ul class="navbar-nav mr-auto">
+
+    <% if (role !== undefined) { %>
+      <li class="nav-item">
+        <a class="nav-link" href="/checkproducts">Check Products</a>
+      </li>
+    <% if (role == 0) { %>
+      <li class="nav-item">
+        <a class="nav-link" href="/addproducts">Add Products</a>
+      </li>
+    <% } if (role == 1 || role == 0) { %>
+      <li class="nav-item">
+        <a class="nav-link" href="/scanshipment">OwnerShip Transfer</a>
+      </li>
+    <% } } %>
+    
+    <li class="nav-item">
+    <a class="nav-link" href="/profile"> Profile </a>
+    </li>
+    
+    <li class="nav-item">
+    <a class="nav-link" id="aboutbtn"> About </a>
+    </li>
+
+    </ul>
+
+    <form class="form-inline">
+      <div class="md-form my-0">
+        <a class="nav-link" href="/logout" style="padding-left:5px;padding-right:5px;margin-left:0px;"> Logout </a>
+      </div>
+    </form>
+
+  </div>
+</nav>
