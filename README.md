@@ -24,36 +24,7 @@ This project was autonomously modernized and deployed by an **AI Agent**. The wo
 *   **Frontend**: EJS (Templating), CSS3 (Advanced Animations)
 *   **Tools**: Git
 
-## Setup and Execution Steps
-
-### Prerequisites
-*   Node.js installed.
-
-### Installation
-1.  Clone the repository:
-    ```bash
-    git clone https://github.com/jeffybrailin/AI-Agentathon---Thiran-2026.git
-    cd AI-Agentathon---Thiran-2026
-    ```
-2.  Install dependencies:
-    ```bash
-    npm install
-    ```
-    *Note: This will install express, web3, ganache, solc, sqlite3, etc.*
-
-### Running the Application
-1.  Start the server:
-    ```bash
-    node server.js
-    ```
-2.  The server will automatically:
-    *   Start a local Ganache blockchain instance on port 7545.
-    *   Compile and Deploy the Smart Contract.
-    *   Start the Web Server.
-
-3.  Access the application in your browser:
-    *   **http://localhost:3000**
 
 ## Prototype Link
 *   **GitHub Repo**: [https://github.com/jeffybrailin/AI-Agentathon---Thiran-2026](https://github.com/jeffybrailin/AI-Agentathon---Thiran-2026)
-*   **Local Access**: [http://localhost:3000](http://localhost:3000)
+*  **Hosting**: https://ai-agentathon-thiran-2026-lfbs.vercel.app/
